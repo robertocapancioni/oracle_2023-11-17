@@ -11,4 +11,5 @@ begin
         l_livello := 3;
     end if;
     :LIVELLO_MAX := l_livello;
+    :LIVELLO_CORRENTE := 1;
 end;
